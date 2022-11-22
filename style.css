@@ -429,7 +429,7 @@ html, body {margin: 0; }
 
 
   /* media query */
-@media only screen and (max-width:483px){
+@media only screen and (max-width:500px){
 
     /* 1- App */
    .App{
