@@ -435,15 +435,15 @@ html, body {margin: 0; }
    .App{
     overflow: hidden;
     margin: auto;
-    width: 80%;
-    height: 850px;
+    width: 100%;
+    height: 794px;
    }
 
    /* 2-contact */
    .contacts {
    
     position: relative;
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 150px;
     background-color: rgba(81, 168, 157, 0.815);
@@ -453,6 +453,7 @@ html, body {margin: 0; }
     right: 0;
     overflow: hidden;
     border-radius: 10px;
+
     
 }
 
@@ -461,9 +462,8 @@ html, body {margin: 0; }
 
 .information .employer-name {
     margin-top: 10px;
-    font-size: 8px;
+    font-size: 12px;
     color: white;
-    
     width: 100%;
     height: 20px;
     word-spacing: 6.5px;
@@ -475,7 +475,7 @@ html, body {margin: 0; }
 
 .information .job-name{
     color: white;
-    font-size: 4px;
+    font-size: 6px;
     word-spacing: 1px;
     letter-spacing: 1px;
     margin-bottom: 5px;
@@ -497,12 +497,11 @@ html, body {margin: 0; }
 }
 .img img{
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 81px;
+    height: 81px;
     border-radius: 50%;
     border: 2px solid white;
     margin-top: 10px;
-    
     
 }
 
@@ -515,7 +514,7 @@ html, body {margin: 0; }
 }
 .contact-list li{
     margin-top: 10px;
-    font-size: 5px;
+    font-size: 7px;
    
 }
 
@@ -532,7 +531,7 @@ html, body {margin: 0; }
 /* 6-lower upper left  */
 .upper {
     background-color: #222;
-    width: 30%;
+    width: 40%;
     border-radius: 10px 0 0;
     height: 20px;
     margin-bottom: 115px;
@@ -592,14 +591,17 @@ html, body {margin: 0; }
     margin: auto;
     
 }
-
+.eduction-head.e-d{
+   
+    margin-top: 75px;
+}
 .eduction-head {
     background-color: rgba(81, 168, 157, 0.815);
     display: inline-block;
     padding: 3px 7px 3px 7px;
     letter-spacing: 2px;
     font-weight: 300;
-    font-size: 0.3rem;
+    font-size: 0.8rem;
     width: auto;
     margin-top: 9px;
     margin-bottom: 4px;
@@ -608,7 +610,7 @@ html, body {margin: 0; }
 }
 
 .postion{
-    font-size: 7px;
+    font-size: 13px;
     color: black;
     font-weight: bold;
     margin-bottom: 3px;
@@ -616,13 +618,13 @@ html, body {margin: 0; }
 }
 
 .universty-name{
-    font-size: 7px;
+    font-size: 13px;
     color: #444343c0;
     margin-bottom: 3px;
 }
 
 .eduction-desc{
-    font-size: 7px;
+    font-size: 11px;
     color: black;
     margin-bottom: 5px;
 }
@@ -638,17 +640,18 @@ html, body {margin: 0; }
 .postion-duration{
     display: inline-block;
     margin-right: 30px;
+    font-size: 14px;
    
 }
 
 .duration{
-    font-size: 5px;
+    font-size: 9px;
     color: #222;
     font-weight: 270;
 }
 
 .employment-desc{
-    margin-bottom: 7px;
+    margin-bottom: 11px;
 }
 
 .employment-information {
@@ -667,9 +670,10 @@ html, body {margin: 0; }
 }
 
 .privacey{
-    font-size: 7px;
+    
     position: relative;
     top: -70px;
+    font-size: 12px;
 }
 /* end of profile , eduction, duration*/
 
@@ -679,7 +683,9 @@ html, body {margin: 0; }
 .level{
     display: inline-block;
     width: 60px;
-    height: 3px;
+    height: 4px;
+    margin-top: 27px;
+    /* margin: 13px 0px; */
     background-color: rgba(81, 168, 157, 0.815);
     position: relative;
     top: 70px;
@@ -737,7 +743,7 @@ html, body {margin: 0; }
     width: 50px;
     height: 15px;
     font-weight: 400;
-    font-size: 0.45rem;
+    font-size: 0.7rem;
 }
 
 .skl-levell{
@@ -764,7 +770,7 @@ html, body {margin: 0; }
     left: 10px;
     letter-spacing: 2px;
     color: rgba(81, 168, 157, 0.815);
-    font-size: 0.4rem;
+    font-size: 0.8rem;
 }
 
 .language-head {
@@ -773,7 +779,7 @@ html, body {margin: 0; }
     left: 10px;
     letter-spacing: 2px;
     color: rgba(81, 168, 157, 0.815);
-    font-size: 0.4rem;
+    font-size: 0.8rem;
 }
 
 
